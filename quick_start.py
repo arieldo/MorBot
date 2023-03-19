@@ -1,3 +1,24 @@
+# work in progress
+print("still working on this , not for production use yet")
+exit()
+
+#TODO: setup the jetson nano 
+
+set requirements.txt with the following: 
+
+# install pip3
+# install git
+# install python3.8
+# pip install pip
+# pip install numpy
+# pip install matplotlib
+# install tensorflow
+# install keras
+# install opencv
+# install pillow
+# install scipy
+
+
 
 import subprocess
 
