@@ -83,7 +83,7 @@ In this guide, we will create a ROS (Robot Operating System) Melodic workspace. 
 First, we will create a new directory to store our ROS packages. This directory is called a "workspace" in ROS terminology. Open a terminal and run the following commands:
 
 ```bash
-$ mkdir -p ~/catkin_ws/src
+$ mkdir -p ~/morbot_ws/src
 $ cd ~/morbot_ws/
 $ catkin_make
 ```
