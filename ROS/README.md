@@ -93,7 +93,7 @@ The `catkin_make` command will build the workspace and create a `devel` and `bui
 
 ## Step 2: Source the Workspace
 
-OK, but What is "Source the Workspace" is ??
+OK, but What is "Source the Workspace"??
 
 Imagine you have a magic toolbox that helps you build robots. Before you start using the tools, you need to tell them where to find all the robot pieces (packages) you've prepared. By doing this, the tools know exactly where to look when you need a specific robot piece.
 
