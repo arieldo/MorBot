@@ -56,9 +56,8 @@ Follow these steps to install ROS Melodic on Ubuntu 18.04:
 
 
 ## Now we need to Create a ROS Workspace for MorBot , so we can start developing and running ROS applications on our system.
-# what is ROS Workspace you ask? good question ! 
 
-## ROS Workspace
+What is ROS Workspace you ask? good question ! 
 
 Imagine you have a big box of LEGO bricks, and you want to build something amazing. To keep everything organized, you would create separate sections in your box for different types of LEGO bricks. When you start building, you can easily find the pieces you need because they are all in the right place.
 
