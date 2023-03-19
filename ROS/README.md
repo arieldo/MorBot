@@ -2,7 +2,8 @@
 
 Imagine you have a super cool video game that you want to play on your computer. But to play the game, you need to install it first. Installing the game means putting all the necessary files and settings onto your computer, so the game can run smoothly.
 
-Now, let's talk about ROS (Robot Operating System) Melodic and Ubuntu 18.04. Ubuntu 18.04 is like the computer you're using, and ROS Melodic is like the super cool video game you want to play, but in this case, it's a set of tools to help you build and control robots.
+Now, let's talk about ROS (Robot Operating System) Melodic and Ubuntu 18.04.
+Ubuntu 18.04 is like the computer you're using, and ROS Melodic is like the super cool video game you want to play, but in this case, it's a set of tools to help you build and control robots.
 
 Installing ROS Melodic on Ubuntu 18.04 means putting all the necessary files, tools, and settings onto your Ubuntu 18.04 computer, so you can start building and controlling robots using ROS Melodic. Once ROS Melodic is installed, your computer will be ready to help you create awesome robots and make them do amazing things!
 
