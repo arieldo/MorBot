@@ -1,6 +1,10 @@
-# Installing ROS Melodic on Ubuntu 18.04
+# Installing ROS Melodic on Ubuntu 18.04 and Creating a ROS Workspace for MorBot 
 
-This guide will walk you through the installation process of ROS Melodic on Ubuntu 18.04. ROS (Robot Operating System) is a popular framework for building robotic software, providing tools and libraries for developing, simulating, and deploying robotic applications.
+Imagine you have a super cool video game that you want to play on your computer. But to play the game, you need to install it first. Installing the game means putting all the necessary files and settings onto your computer, so the game can run smoothly.
+
+Now, let's talk about ROS (Robot Operating System) Melodic and Ubuntu 18.04. Ubuntu 18.04 is like the computer you're using, and ROS Melodic is like the super cool video game you want to play, but in this case, it's a set of tools to help you build and control robots.
+
+Installing ROS Melodic on Ubuntu 18.04 means putting all the necessary files, tools, and settings onto your Ubuntu 18.04 computer, so you can start building and controlling robots using ROS Melodic. Once ROS Melodic is installed, your computer will be ready to help you create awesome robots and make them do amazing things!
 
 ## Prerequisites
 
@@ -14,6 +18,18 @@ Before installing ROS Melodic, make sure you have the following prerequisites:
 Follow these steps to install ROS Melodic on Ubuntu 18.04:
 
 1. Configure your Ubuntu system to accept software from packages.ros.org. First, add the ROS repository to your system's list of package sources:
+
+But first let's understand what is a ROS repository! 
+
+Imagine you have a big library filled with books on many different topics. Each book contains knowledge and information about a specific subject. The library is organized so that you can easily find the book you're looking for when you need it. This library is a place where you and others can visit to learn new things, share knowledge, and discover exciting ideas.
+
+In the world of computers, a repository is like that big library. It's a place where people store and organize computer code (which is like the knowledge in books) for a specific project or a collection of projects. These projects could be about anything, like building robots, creating websites, or making video games.
+
+A repository helps keep all the code organized, and it also allows people to work together on projects more easily. They can add new code, make changes to existing code, and even track the history of the changes made. This way, everyone can learn from each other, share their work, and create amazing things together!
+
+So, a repository is like a big library for computer code, where people can store, organize, and share their work with others to create awesome projects.
+
+run the following command:
 
     ```
     $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu bionic main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -34,12 +50,32 @@ Follow these steps to install ROS Melodic on Ubuntu 18.04:
 
 4. Initialize rosdep, a tool for installing system dependencies required by ROS packages:
 
+dependencies?? what are dependencies? 
+
+Imagine you're building a really cool treehouse with your friends. To build the treehouse, you need different things like wood, nails, and a ladder. These items are important because, without them, you can't build your treehouse. In this situation, the wood, nails, and ladder are called "dependencies" because they are necessary for you to complete your project.
+
+In the world of computers, when you're working on a project, like building a robot or creating a video game, you often need some tools or pieces of code that have already been created by others. These tools and pieces of code help you complete your project more easily and quickly. They're called "dependencies" because your project depends on them to work properly.
+
+For example, if you're building a robot, you might need a piece of code that helps your robot move its arms. Instead of writing that code from scratch, you can use a dependency that has already been created by someone else.
+
+So, dependencies are like the important tools and pieces of code that your project needs to work correctly. They help you save time and make your project run smoothly.
+
+Let's run the following command:
+
     ```
     $ sudo rosdep init
     $ rosdep update
     ```
 
-5. Set up your environment variables to use ROS. Add the following lines to your .bashrc file:
+5. Set up your environment variables to use ROS. Add the following lines to your `.bashrc` file:
+
+Never heard about the mighty `.bashrc` file ?? No Worries ! 
+
+Imagine every time you enter your room, you have a special list of things to do, like turning on the lights, opening the curtains, and setting the room temperature. This list helps you make your room comfortable and ready for any activities you want to do.
+
+In your computer, there's a special file called .bashrc. This file is like that list of things you do in your room. Every time you open a terminal (which is like entering your room), the computer looks at the .bashrc file to know what to set up and prepare. The file contains instructions and settings that help your computer get ready for you to work on different tasks, like building robots with ROS.
+
+By adding instructions to the .bashrc file, you're telling your computer to always remember certain settings, like where to find your robot pieces (packages) in your catkin workspace. This way, you don't have to remind your computer every time you open the terminal, and it's always ready to help you work on your robot projects.
 
     ```
     $ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
@@ -53,6 +89,8 @@ Follow these steps to install ROS Melodic on Ubuntu 18.04:
     ```
 
     This should start the ROS master and display a message indicating that it is running.
+
+    If all OK , you can close the terminal window You have successfully installed ROS Melodic on Ubuntu 18.04.
 
 
 ## Now we need to Create a ROS Workspace for MorBot , so we can start developing and running ROS applications on our system.
@@ -103,16 +141,6 @@ So, when you "source the workspace" in ROS, you're making sure that the computer
 
 we will add the workspace to the ROS environment. This will allow us to run ROS commands from any directory. To do this, we will add the following line to our `.bashrc` file : 
 
-Never heard about the mighty `.bashrc` file ?? No Worries ! 
-
-Imagine every time you enter your room, you have a special list of things to do, like turning on the lights, opening the curtains, and setting the room temperature. This list helps you make your room comfortable and ready for any activities you want to do.
-
-In your computer, there's a special file called .bashrc. This file is like that list of things you do in your room. Every time you open a terminal (which is like entering your room), the computer looks at the .bashrc file to know what to set up and prepare. The file contains instructions and settings that help your computer get ready for you to work on different tasks, like building robots with ROS.
-
-By adding instructions to the .bashrc file, you're telling your computer to always remember certain settings, like where to find your robot pieces (packages) in your catkin workspace. This way, you don't have to remind your computer every time you open the terminal, and it's always ready to help you work on your robot projects.
-
-So now run the following command:
-
 ```bash
 $ echo "source ~/MorBot/morbot_ws/devel/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
@@ -129,12 +157,12 @@ $ echo $ROS_PACKAGE_PATH
 You should see the following output:
 
 ```bash
-/home/your_username/MorBot/morbot_ws/src:/opt/ros/noetic/share
+/home/your_username/MorBot/morbot_ws/src:/opt/ros/melodic/share
 
 ```
 
 Congratulations, you have successfully installed ROS Melodic on Ubuntu 18.04! You can now start developing and running ROS applications that will take you to the moon and back.
 
 
-For geeks ONLYU ,more information and tutorials on using ROS, check out the [ROS Wiki](http://wiki.ros.org/) and [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials).
+For geeks ONLY ,more information and tutorials on using ROS, check out the [ROS Wiki](http://wiki.ros.org/) and [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials).
 
