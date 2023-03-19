@@ -93,8 +93,25 @@ The `catkin_make` command will build the workspace and create a `devel` and `bui
 
 ## Step 2: Source the Workspace
 
-Next, we will add the workspace to the ROS environment. This will allow us to run ROS commands from any directory. To do this, we will add the following line to our 
-`.bashrc` file:
+OK, but What is "Source the Workspace" is ??
+
+Imagine you have a magic toolbox that helps you build robots. Before you start using the tools, you need to tell them where to find all the robot pieces (packages) you've prepared. By doing this, the tools know exactly where to look when you need a specific robot piece.
+
+In ROS, "sourcing the workspace" is like telling the magic toolbox where to find your robot pieces. When you source the workspace, you're giving your computer instructions on where to find the packages you've created or collected in your catkin workspace. This way, when you work on your robot project, the computer knows exactly where to look for the pieces it needs to build or run your robot.
+
+So, when you "source the workspace" in ROS, you're making sure that the computer knows where to find everything it needs to help you build and run your robots.
+
+we will add the workspace to the ROS environment. This will allow us to run ROS commands from any directory. To do this, we will add the following line to our `.bashrc` file : 
+
+Never heard about the mighty `.bashrc` file ?? No Worries ! 
+
+Imagine every time you enter your room, you have a special list of things to do, like turning on the lights, opening the curtains, and setting the room temperature. This list helps you make your room comfortable and ready for any activities you want to do.
+
+In your computer, there's a special file called .bashrc. This file is like that list of things you do in your room. Every time you open a terminal (which is like entering your room), the computer looks at the .bashrc file to know what to set up and prepare. The file contains instructions and settings that help your computer get ready for you to work on different tasks, like building robots with ROS.
+
+By adding instructions to the .bashrc file, you're telling your computer to always remember certain settings, like where to find your robot pieces (packages) in your catkin workspace. This way, you don't have to remind your computer every time you open the terminal, and it's always ready to help you work on your robot projects.
+
+So now run the following command:
 
 ```bash
 $ echo "source ~/MorBot/morbot_ws/devel/setup.bash" >> ~/.bashrc
@@ -116,7 +133,8 @@ You should see the following output:
 
 ```
 
-Congratulations, you have successfully installed ROS Melodic on Ubuntu 18.04! You can now start developing and running ROS applications on your system.
+Congratulations, you have successfully installed ROS Melodic on Ubuntu 18.04! You can now start developing and running ROS applications that will take you to the moon and back.
 
-For more information and tutorials on using ROS, check out the [ROS Wiki](http://wiki.ros.org/) and [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials).
+
+For geeks ONLYU ,more information and tutorials on using ROS, check out the [ROS Wiki](http://wiki.ros.org/) and [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials).
 
