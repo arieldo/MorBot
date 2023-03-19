@@ -1,4 +1,4 @@
-#what are deep neural networks?
+# what are deep neural networks?
 
 Deep neural networks are like super smart detectives that can figure out all sorts of things by looking at pictures or listening to sounds. They're a special type of computer brain power that helps computers understand and learn things just like we do, but they're especially good at finding patterns and solving puzzles.
 
