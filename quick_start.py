@@ -6,6 +6,7 @@ exit()
 
 set requirements.txt with the following: 
 
+# install ssh
 # install pip3
 # install git
 # install python3.8
