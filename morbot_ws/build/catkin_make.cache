@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/ariel/MorBot/morbot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ariel/MorBot/morbot_ws/install -G Unix Makefiles
