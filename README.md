@@ -35,12 +35,12 @@ add link to website and repo
 install requirements.txt (pip install -r requirements.txt)
 ro qiuckstart python 
 
-1. **build the JetBot:** - Follow the instructions in the [JetBot repository]() to build the robot.
-2. **set up the jetson nano:** - Follow the instructions in the [Jetson_nano repository]() to set up the Jetson Nano.
-3. **install ROS:** - Follow the instructions in the [ROS repository]() to install ROS. 
-4. **install the MorBot package:** - Follow the instructions in the [MorBot repository]() to install the MorBot package.
-5. **run the MorBot package:** - Follow the instructions in the [MorBot repository]() to run the MorBot package.
-6. **access the educational content:** - Follow the instructions in the [docs repository]() to access the educational content.
+1. **build the JetBot:** - Follow the instructions in the [JetBot repository](https://github.com/arieldo/MorBot/tree/main/JetBot) to build the robot.
+2. **set up the jetson nano:** - Follow the instructions in the [Jetson_nano repository](https://github.com/arieldo/MorBot/tree/main/Jetson_nano) to set up the Jetson Nano.
+3. **install ROS:** - Follow the instructions in the [ROS repository](https://github.com/arieldo/MorBot/tree/main/ROS) to install ROS. 
+4. **install the MorBot package:** - Follow the instructions in the [MorBot repository](https://github.com/arieldo/MorBot) to install the MorBot package.
+5. **run the MorBot package:** - Follow the instructions in the [MorBot repository](https://github.com/arieldo/MorBot) to run the MorBot package.
+6. **access the educational content:** - Follow the instructions in the [docs repository](https://github.com/arieldo/MorBot/tree/main/docs) to access the educational content.
 
 ## Advanced (Optional) 
 
