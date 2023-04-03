@@ -26,7 +26,9 @@ MorBot is an excellent educational tool for children who are interested in STEM 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 
-## Getting Started
+## Getting Started 
+
+{Switch to Wiki style}
 
 To get started with MorBot, simply follow the step-by-step assembly instructions that are provided with the kit. Once assembled,The educational content can be accessed through the MorBot website or repo , which includes a range of lessons and challenges that are designed to help children learn about STEM concepts.
 
