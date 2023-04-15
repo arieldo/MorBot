@@ -4,7 +4,7 @@ Welcome to the docs repository! This repository contains documentation related t
 
 All of the documentation is written for 
 
-- kids and beginners in a simple and easy-to-understand way.
+- Pupils and beginners in a simple and easy-to-understand way.
 
 - teachers and educators who want to teach machine learning, computer vision, deep neural networks, dependencies for Jetpack, linux, robot, and ROS. 
 

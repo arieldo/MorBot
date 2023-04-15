@@ -1,1 +1,1 @@
-Check out our [wiki](https://github.com/arieldo/MorBot/wiki/Jetson-Nano-Linux-Setup) page to get started! 
+Check out our [wiki](https://github.com/arieldo/MorBot/wiki/2.-Jetson-Nano-Linux-Setup) page to get started! 

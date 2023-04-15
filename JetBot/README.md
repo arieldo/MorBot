@@ -1,1 +1,1 @@
-Check out our [wiki](https://github.com/arieldo/MorBot/wiki/hardware-setup) page to get started! 
+Check out our [wiki](https://github.com/arieldo/MorBot/wiki/1.-Hardware-Setup) page to get started! 
