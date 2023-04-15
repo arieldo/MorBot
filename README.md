@@ -21,28 +21,14 @@ MorBot is an exciting educational robot platform designed for kids to learn abou
 
 MorBot is an excellent educational tool for children who are interested in STEM subjects. The platform is designed to be easy to use and fun, and the lessons and challenges are engaging and informative. By using MorBot, children can learn important skills such as problem-solving, creativity, and critical thinking, which will be valuable in all areas of their lives.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-
 ## Getting Started 
 
-{Switch to Wiki style}
-
-To get started with MorBot, simply follow the step-by-step assembly instructions that are provided with the kit. Once assembled,The educational content can be accessed through the MorBot website or repo , which includes a range of lessons and challenges that are designed to help children learn about STEM concepts.
+Check out our [wiki](https://github.com/arieldo/MorBot/wiki) page to get started! 
 
 TODO !!
 add link to website and repo 
 install requirements.txt (pip install -r requirements.txt)
 ro qiuckstart python 
-
-1. **build the JetBot:** - Follow the instructions in the [JetBot repository](https://github.com/arieldo/MorBot/tree/main/JetBot) to build the robot.
-2. **set up the jetson nano:** - Follow the instructions in the [Jetson_nano repository](https://github.com/arieldo/MorBot/tree/main/Jetson_nano) to set up the Jetson Nano.
-3. **install ROS:** - Follow the instructions in the [ROS repository](https://github.com/arieldo/MorBot/tree/main/ROS) to install ROS. 
-4. **install the MorBot package:** - Follow the instructions in the [MorBot repository](https://github.com/arieldo/MorBot) to install the MorBot package.
-5. **run the MorBot package:** - Follow the instructions in the [MorBot repository](https://github.com/arieldo/MorBot) to run the MorBot package.
-6. **access the educational content:** - Follow the instructions in the [docs repository](https://github.com/arieldo/MorBot/tree/main/docs) to access the educational content.
 
 ## Advanced (Optional) 
 
@@ -53,3 +39,10 @@ ro qiuckstart python
 11. **build your own accessories:** - Follow the instructions in the [accessories repository]() to build your own accessories.
 12. **build your own experiments:** - Follow the instructions in the [experiments repository]() to build your own experiments.
 13. **build spaceship and fly to mars** 
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+
