@@ -25,11 +25,6 @@ MorBot is an excellent educational tool for children who are interested in STEM 
 
 Check out our [wiki](https://github.com/arieldo/MorBot/wiki) page to get started! 
 
-TODO !!
-add link to website and repo 
-install requirements.txt (pip install -r requirements.txt)
-ro qiuckstart python 
-
 ## Advanced (Optional) 
 
 7. **build your own projects:** - Follow the instructions in the [projects repository]() to build your own projects.
