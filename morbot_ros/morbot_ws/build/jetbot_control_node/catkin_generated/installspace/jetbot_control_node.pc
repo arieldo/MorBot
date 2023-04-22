@@ -1,0 +1,8 @@
+prefix=/home/jetbot/MorBot/morbot_ros/morbot_ws/install
+
+Name: jetbot_control_node
+Description: Description of jetbot_control_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

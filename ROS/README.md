@@ -1,1 +1,0 @@
-Check out our [wiki](https://github.com/arieldo/MorBot/wiki/3.-Ros) page to get started! 

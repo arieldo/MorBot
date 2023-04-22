@@ -1,0 +1,2 @@
+jetbot_control_node
+-DCATKIN_DEVEL_PREFIX=/home/jetbot/MorBot/morbot_ros/morbot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jetbot/MorBot/morbot_ros/morbot_ws/install -G Unix Makefiles

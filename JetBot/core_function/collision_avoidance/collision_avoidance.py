@@ -1,1 +1,0 @@
-https://github.com/NVIDIA-AI-IOT/jetbot/tree/master/notebooks/collision_avoidance

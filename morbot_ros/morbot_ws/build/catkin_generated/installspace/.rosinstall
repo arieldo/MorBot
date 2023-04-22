@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jetbot/MorBot/morbot_ros/morbot_ws/install/setup.sh
