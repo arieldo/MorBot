@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jetbot/jetbot/jetbot/ssd_tensorrt/FlattenConcat.cpp
+algorithm
+-
+cassert
+-
+iostream
+-
+numeric
+-
+vector
+-
+cublas_v2.h
+-
+NvInferPlugin.h
+/home/jetbot/jetbot/jetbot/ssd_tensorrt/NvInferPlugin.h
+
