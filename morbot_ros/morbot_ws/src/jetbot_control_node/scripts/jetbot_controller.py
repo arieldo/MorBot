@@ -4,7 +4,7 @@ import rospy
 from geometry_msgs.msg import Twist
 from jetbot import Robot
 
-print("start")
+print("jetbot controller")
 class JetBotController:
     def __init__(self):
         rospy.init_node('jetbot_controller', anonymous=True)
