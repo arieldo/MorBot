@@ -2,6 +2,8 @@
 
 MorBot is an exciting educational robot platform designed for Pupils to learn about robotics, deep neural networks (DNN), machine learning (ML), and programming using the Robot Operating System (ROS). This interactive and fun platform offers hands-on experience for Pupils to explore the fascinating world of robotics and artificial intelligence (AI) in an engaging and easy-to-understand way.
 
+If you run into any issues, please [let us know](https://github.com/arieldo/MorBot/issues)
+
 ## Features
 
 - **Easy assembly:** MorBot is designed to be easy to assemble based on the JetBot platform , with no soldering or complex wiring required. Children can follow the step-by-step instructions to assemble the robot themselves, which helps to develop their problem-solving and fine motor skills.
