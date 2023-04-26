@@ -1,0 +1,3 @@
+<launch>
+    <node name="jetbot_controller" pkg="jetbot_control_node" type="jetbot_controller.py" output="screen" />
+</launch>
