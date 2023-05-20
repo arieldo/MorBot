@@ -1,5 +1,0 @@
-packaging
-cffi
-ipywidgets
-torchvision
-rospkg
