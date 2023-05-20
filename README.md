@@ -27,7 +27,7 @@ MorBot is an excellent educational tool for children who are interested in STEM 
 
 ### project workflow :
 
-1. **build the MorBot**
+1. [**build the MorBot**](https://github.com/arieldo/MorBot/wiki/Linux-Tutorial-for-Beginners)
 2. **set up the jetson nano**
 3. **install ROS** 
 4. **install and run the MorBot package** 
