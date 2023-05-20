@@ -1,12 +1,14 @@
 # Docs Repository
 
-Welcome to the docs repository! This repository contains documentation related to machine learning ,computer vision, deep neural networks, dependencies for Jetpack, linux, robot, and ROS.
+<b>Still in construction :) new content will be uploaded soon, stay tuned!</b>
+
+Welcome to the docs repository! This repository contains documentation related to machine learning ,computer vision, deep neural networks, and dependencies for Jetpack, Linux, robot, and ROS.
 
 All of the documentation is written for 
 
 - Pupils and beginners in a simple and easy-to-understand way.
 
-- teachers and educators who want to teach machine learning, computer vision, deep neural networks, dependencies for Jetpack, linux, robot, and ROS. 
+- teachers and educators who want to teach machine learning, computer vision, deep neural networks, dependencies for Jetpack, linux, robots, and ROS. 
 
 ## Contents
 
@@ -24,7 +26,7 @@ Our documentation on computer vision provides an introduction to the field and d
 
 ## Deep Neural Networks
 
-Our documentation on deep neural networks covers the basics of neural networks and deep learning, as well as more advanced topics such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs). It also includes tutorials on how to build and train neural networks using popular deep learning frameworks such as TensorFlow and PyTorch.
+Our documentation on deep neural networks covers the basics of neural networks and deep learning, as well as more advanced topics such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs). It also includes tutorials on how to build and train neural networks using popular deep-learning frameworks such as TensorFlow and PyTorch.
 
 ## Dependencies for Jetpack
 
