@@ -11,13 +11,16 @@ If you run into any issues, please [let us know](https://github.com/arieldo/MorB
 - **Educational content:** MorBot comes with a series of lessons and challenges that are designed to teach children about STEM concepts such as robotics, engineering, and coding. The lessons are presented in a fun and engaging way, with videos, animations, and interactive exercises that help to reinforce the concepts.
 - **Expandable:** MorBot is designed to be expandable, with a range of accessories and add-ons that can be used to enhance the robot's capabilities. Children can use these accessories to create custom projects and experiments, which helps to foster creativity and innovation.
 
-## Prerequisites
+## Main Components
 
-- **Jetson Nano:** - The Jetson Nano is a small computer that is used to control the robot. It is the "brain" of the robot, and it is responsible for processing information and controlling the robot's movements. The Jetson Nano is a powerful computer that can perform complex tasks, such as running artificial intelligence (AI) algorithms and controlling the robot's movements. It is also very energy efficient, which means that it can run for a long time on a single battery charge. The Jetson Nano is a great choice for a robot because it is small, powerful, and energy efficient.
+- **JetBot:** - The JetBot, an easily assembled robot, utilizes the Jetson Nano, a compact yet powerful computer. Its user-friendly nature and capability to perform complex tasks, like running AI algorithms and managing robot movements, make it an ideal choice.
 
-- **JetBot:** - The JetBot is a robot that is designed to be easy to assemble and use. It is based on the Jetson Nano, which is a small computer that is used to control the robot. The JetBot is a great choice for a robot because it is easy to assemble and use, and it is based on the Jetson Nano, which is a powerful computer that can perform complex tasks, such as running artificial intelligence (AI) algorithms and controlling the robot's movements.
+- **Jetson Nano:** - The Jetson Nano, as the "brain" of the robot, processes information and controls its movements. This compact, powerful computer efficiently runs AI algorithms and manages energy well, ensuring long operation times on a single battery charge.
 
-- **basic knowledge of Linux:** - [Linux wiki](https://github.com/arieldo/MorBot/wiki/Linux-Tutorial-for-Beginners) The Jetson Nano is a small computer that is used to control the robot. It is the "brain" of the robot, and it is responsible for processing information and controlling the robot's movements. The Jetson Nano is a powerful computer that can perform complex tasks, such as running artificial intelligence (AI) algorithms and controlling the robot's movements. It is also very energy efficient, which means that it can run for a long time on a single battery charge. The Jetson Nano is a great choice for a robot because it is small, powerful, and energy efficient.
+Understanding Linux and Python is crucial in robotics and ROS because Linux provides a robust and versatile OS ideal for the complex, concurrent tasks in robotics, while Python, due to its simplicity and vast library support, is widely used for scripting and implementing algorithms in ROS.
+
+If you are new to Linux, check out [Linux wiki](https://github.com/arieldo/MorBot/wiki/Linux-Tutorial-for-Beginners)  
+
 
 ## Conclusion
 
@@ -27,11 +30,11 @@ MorBot is an excellent educational tool for children who are interested in STEM 
 
 ### project workflow :
 
-1. [**build the MorBot**](https://github.com/arieldo/MorBot/wiki/Linux-Tutorial-for-Beginners)
-2. **set up the jetson nano**
-3. **install ROS** 
-4. **install and run the MorBot package** 
-5. **access the educational content**
+1. [**build the MorBot**](https://github.com/arieldo/MorBot/wiki/1.%20hardware-setup)
+2. [**set up the jetson nano**](https://github.com/arieldo/MorBot/wiki/2.%20Jetson-Nano-Linux-Setup)
+3. [**install ROS**](https://github.com/arieldo/MorBot/wiki/3.-Ros)
+4. [**install and run the MorBot package**](https://github.com/arieldo/MorBot/wiki/4.-MorBot-Package)
+5. **access the educational content** 
 
 Check out our [wiki](https://github.com/arieldo/MorBot/wiki) page to get started! 
 
