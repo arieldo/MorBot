@@ -59,7 +59,7 @@ if [ "$UBUNTU_VERSION" == "$REQUIRED_UBUNTU_VERSION" ]; then
     # Iterate through the Python packages and install each one
     for PACKAGE_NAME in "${PYTHON_PACKAGE_NAMES[@]}"; do
         echo "Installing Python package $PACKAGE_NAME..."
-        echo $SUDO_PASSWORD | sudo -S python3.6 -m pip install $PACKAGE_NAME
+        echo  python3.6 -m pip install $PACKAGE_NAME
 
         # Check the package version
         PACKAGE_VERSION=$(python3.6 -c "import $PACKAGE_NAME; print($PACKAGE_NAME.__version__)")
